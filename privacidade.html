@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Política de privacidade · Mini Gestor</title>
+<meta name="description" content="O Mini Gestor não coleta, não envia e não vende dados. Tudo o que a loja cadastra fica no computador dela.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#faf9fa; --paper:#ffffff; --fg:#21152a; --muted:#6c6272; --line:#ebe5ee;
+  --brand:#a341ab; --brand-soft:#f4eaf6; --ink:#280d2b;
+  --f-display:"Bricolage Grotesque",system-ui,sans-serif;
+  --f-body:"Geist",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"Geist Mono",ui-monospace,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#120a14; --paper:#1b111e; --fg:#f2ebf3; --muted:#a99dae; --line:#2d2131;
+    --brand:#d996df; --brand-soft:#26142b; --ink:#1f0a22;
+    color-scheme:dark;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:var(--brand)}
+.topo{background:var(--ink);color:#fff}
+.wrap{max-width:760px;margin:0 auto;padding:0 clamp(16px,4vw,32px)}
+.topo .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:18px}
+.marca{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-family:var(--f-display);font-weight:700;font-size:18px}
+.marca span{display:grid;place-items:center;width:32px;height:32px;border-radius:9px;background:#a341ab}
+.marca svg{width:18px;height:18px;fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.topo nav a{color:rgba(255,255,255,.8);text-decoration:none;font-size:14px}
+.topo nav a:hover{color:#fff}
+main.wrap{padding-block:clamp(40px,7vw,72px)}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--f-display);font-size:clamp(32px,5vw,46px);line-height:1.05;letter-spacing:-.03em;margin:10px 0 8px}
+.data{color:var(--muted);font-size:14px;margin:0}
+.resumo{margin:32px 0 8px;padding:20px 22px;border-radius:14px;background:var(--brand-soft);border:1px solid var(--line);font-size:17px}
+.resumo strong{display:block;font-family:var(--f-display);font-size:20px;margin-bottom:4px}
+h2{font-family:var(--f-display);font-size:22px;letter-spacing:-.01em;margin:40px 0 8px}
+p,li{color:var(--fg)}
+ul{padding-left:1.2em}
+li{margin:4px 0}
+code{font-family:var(--f-mono);font-size:.9em;background:var(--paper);border:1px solid var(--line);padding:1px 6px;border-radius:6px}
+footer{border-top:1px solid var(--line);padding-block:28px;color:var(--muted);font-size:14px}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+</style>
+</head>
+<body>
+
+<header class="topo">
+  <div class="wrap">
+    <a class="marca" href="./">
+      <span aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m2 7 4.4-4.4A2 2 0 0 1 7.8 2h8.4a2 2 0 0 1 1.4.6L22 7"/><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"/><path d="M2 7h20"/><path d="M22 7v3a2 2 0 0 1-2 2a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12a2 2 0 0 1-2-2V7"/></svg></span>
+      Mini Gestor
+    </a>
+    <nav><a href="./">Voltar ao site</a></nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <span class="eyebrow">Privacidade</span>
+  <h1>Política de privacidade</h1>
+  <p class="data">Atualizada em 14 de novembro de 2026.</p>
+
+  <div class="resumo">
+    <strong>O Mini Gestor não coleta, não envia e não vende dados.</strong>
+    Tudo o que você cadastra fica no computador da sua loja. O app funciona sem internet, e
+    nenhum dado é enviado ao desenvolvedor nem a terceiros.
+  </div>
+
+  <h2>Que dados o app guarda</h2>
+  <p>Só o que a loja cadastra ou faz no próprio app:</p>
+  <ul>
+    <li>produtos, categorias, preços e estoque;</li>
+    <li>vendas, formas de pagamento e taxas de entrega;</li>
+    <li>clientes que a loja decidir cadastrar: nome, endereço, telefone e e-mail;</li>
+    <li>contas da equipe: nome, usuário e senha (a senha é guardada cifrada, nunca em texto);</li>
+    <li>preferências da tela, como nome e logo da loja, tema e impressora.</li>
+  </ul>
+
+  <h2>Onde esses dados ficam</h2>
+  <p>
+    No próprio computador, numa pasta do Mini Gestor no Windows. O app não tem servidor na
+    internet: o que ele usa roda dentro do computador da loja e só aceita conexões dele mesmo.
+    O desenvolvedor não tem acesso a esses dados.
+  </p>
+
+  <h2>Cópia de segurança (backup)</h2>
+  <p>
+    Uma vez por dia o app copia os dados para uma pasta do computador — por padrão
+    <code>Documentos\Mini Gestor\Backups</code> — ou para a pasta que o dono escolher, como um pen
+    drive. As cópias guardam o estado de cada dia por até uma semana.
+  </p>
+  <p>
+    Se o dono escolher uma pasta sincronizada com um serviço de nuvem, como o Google Drive, a
+    cópia é enviada por esse serviço, conforme a política de privacidade dele. O Mini Gestor
+    não envia nada por conta própria.
+  </p>
+
+  <h2>Impressão</h2>
+  <p>Comandas e relatórios vão apenas para a impressora escolhida na loja.</p>
+
+  <h2>Microsoft Store</h2>
+  <p>
+    O Mini Gestor é instalado e atualizado pela Microsoft Store, que trata os dados dela conforme a
+    <a href="https://privacy.microsoft.com/pt-br/privacystatement" target="_blank" rel="noopener">Política de Privacidade da Microsoft</a>.
+    O desenvolvedor recebe da Microsoft apenas estatísticas gerais — como número de instalações,
+    avaliações e relatórios de falha do Windows — sem acesso a nada do que a loja cadastra.
+  </p>
+
+  <h2>Dados dos clientes da sua loja</h2>
+  <p>
+    Quem decide quais dados de clientes cadastrar, e por quanto tempo guardá-los, é a loja. Nos
+    termos da Lei Geral de Proteção de Dados (LGPD), a loja é a controladora desses dados, e o
+    Mini Gestor é a ferramenta que ela usa no próprio computador. A loja pode corrigir ou
+    excluir o cadastro de um cliente no próprio app.
+  </p>
+
+  <h2>Crianças</h2>
+  <p>O Mini Gestor é uma ferramenta de gestão para lojas e não se destina a crianças.</p>
+
+  <h2>Este site</h2>
+  <p>
+    Este site não usa cookies nem ferramentas de rastreamento. Ele carrega fontes do Google
+    Fonts, e o Google pode registrar esse acesso conforme a política dele.
+  </p>
+
+  <h2>Mudanças nesta política</h2>
+  <p>Se esta política mudar, a data no topo da página é atualizada.</p>
+
+  <h2>Contato</h2>
+  <p>
+    Dúvidas sobre privacidade: Carlos Morais, desenvolvedor do Mini Gestor —
+    <a href="mailto:carlosmorais.contact@gmail.com">carlosmorais.contact@gmail.com</a>.
+  </p>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Mini Gestor · desenvolvido por Carlos Morais</span>
+    <a href="./">Voltar ao site</a>
+  </div>
+</footer>
+
+</body>
+</html>

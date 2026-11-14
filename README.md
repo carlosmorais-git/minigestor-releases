@@ -6,18 +6,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/carlosmorais-git/minigestor-releases/releases/latest">
-    <img alt="Última versão" src="https://img.shields.io/github/v/release/carlosmorais-git/minigestor-releases?label=vers%C3%A3o&color=1f56d6">
-  </a>
-  <a href="https://github.com/carlosmorais-git/minigestor-releases/releases">
-    <img alt="Downloads" src="https://img.shields.io/github/downloads/carlosmorais-git/minigestor-releases/total?label=downloads&color=1d7a4c">
+  <a href="https://apps.microsoft.com/detail/9N0BMKGMPCN0?mode=direct">
+    <img alt="Obter na Microsoft Store" src="https://get.microsoft.com/images/pt-br%20dark.svg" width="200">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/carlosmorais-git/minigestor-releases/releases/latest">
-    <strong>⬇ Baixar o Mini Gestor para Windows</strong>
-  </a>
+  <a href="https://carlosmorais-git.github.io/minigestor-releases/">Site</a> ·
+  <a href="https://carlosmorais-git.github.io/minigestor-releases/privacidade.html">Política de privacidade</a>
 </p>
 
 ---
@@ -36,7 +32,7 @@ O Mini Gestor é um ponto de venda (PDV) gratuito para pequenos negócios: lanch
 | **Clientes** | Cadastro com endereço e telefone, ligado ao pedido de entrega. |
 | **Relatórios** | Faturamento por dia e por hora, mais vendidos, formas de pagamento e comparação com o período anterior. Imprima ou baixe a planilha (CSV). |
 | **Equipe e permissões** | Cada funcionário tem o próprio acesso (Caixa, Gerente). Cada venda registra quem vendeu, e cancelar uma venda paga pede a senha do gerente ou do dono. |
-| **Backup diário** | Uma cópia do banco por dia da semana, na pasta que você escolher: no computador, num pen drive ou numa pasta do Google Drive. |
+| **Backup diário** | Uma cópia por dia da semana, sozinha, na pasta Documentos ou na que você escolher: um pen drive ou uma pasta do Google Drive. Trocou de computador ou reinstalou? **Restaure pela própria tela.** |
 | **Funciona offline** | Os dados ficam no computador da loja. Se a internet cair, o caixa continua vendendo. |
 
 ### Como o estoque se organiza
@@ -49,29 +45,27 @@ O Mini Gestor é um ponto de venda (PDV) gratuito para pequenos negócios: lanch
 
 ## Instalação
 
-1. Baixe o `MiniGestor-Setup-<versão>.exe` na [última versão](https://github.com/carlosmorais-git/minigestor-releases/releases/latest).
-2. Abra o arquivo e siga os passos.
-3. Abra o Mini Gestor pelo atalho na área de trabalho. A primeira abertura pode levar um minuto ou mais.
-4. Crie o acesso do dono (usuário e senha). Os funcionários você cadastra depois, na tela Equipe.
+1. Abra o Mini Gestor na [Microsoft Store](https://apps.microsoft.com/detail/9N0BMKGMPCN0?mode=direct) e clique em **Obter**.
+2. Abra o Mini Gestor pelo menu Iniciar. A primeira abertura pode levar um minuto ou mais.
+3. Crie o acesso do dono (usuário e senha). Os funcionários você cadastra depois, na tela Equipe.
 
 > **Quer só conhecer antes?** Na tela de entrada, clique em **Conhecer com dados de exemplo**. Abre uma loja de exemplo com 30 dias de vendas, separada dos seus dados.
 
-> **O Windows mostrou "O Windows protegeu o computador"?**
-> Isso acontece com aplicativos novos que ainda não têm assinatura digital. Clique em **Mais informações** e depois em **Executar assim mesmo**.
+> **Já usava o Mini Gestor?** Na tela "Criar acesso do dono", clique em **Restaurar de um backup** e escolha a cópia: a loja volta como estava.
 
 ### Requisitos
 
 - Windows 10 ou 11 (64 bits)
-- Internet só para baixar e receber atualizações. Para usar, não precisa
+- Internet só para instalar e receber atualizações. Para usar, não precisa
 - Impressora térmica é opcional
 
 ## Atualizações
 
-O Mini Gestor se atualiza sozinho. Quando sai uma versão nova, ele baixa em segundo plano e mostra no topo da tela **"Nova versão pronta"**. Clique em **Atualizar agora**: o app fecha, instala e abre de novo. Pedidos em aberto continuam lá.
+O Mini Gestor se atualiza sozinho pela Microsoft Store, como qualquer app do Windows. Atualizar não mexe nos dados da loja.
 
-Seus dados ficam salvos no computador. Atualizar, reinstalar ou desinstalar não apaga o banco da loja.
+⚠️ **Desinstalar apaga os dados do app.** O backup diário, na pasta Documentos (ou na que você escolheu), continua lá: depois de instalar de novo, use **Restaurar de um backup**.
 
-As mudanças de cada versão estão na página de [releases](https://github.com/carlosmorais-git/minigestor-releases/releases).
+> **Usa a versão antiga (instalador `.exe`)?** Ela não recebe mais atualizações. Faça um backup (Configurações › Sistema › Backup › **Fazer backup agora**), desinstale o Mini Gestor, instale pela Microsoft Store e, se pedir para criar o acesso do dono, clique em **Restaurar de um backup**.
 
 ## Em breve
 
